@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Arial', sans-serif;
+  }
+  url {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .qr-container {
+    width: 250px; /* Adjust the width to make it smaller */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center the text */
+    background-color: #fff; /* Optional: Add a background color */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  }
+  .qr-code {
+    width: 100%; /* Make the image responsive */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+  }
+  h1 {
+    font-size: 16px; /* Reduce font size */
+    margin: 10px 0; /* Adjust spacing */
+  }
+  p {
+    font-size: 12px; /* Reduce font size */
+    color: #666; /* Optional: Adjust text color */
+  }
+  @media (max-width: 600px) {
+    url {
+      width: 90%;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 0.9em;
+    }
+  }
+  .attribution {
+    font-size: 0.8em;
+    color: hsl(228, 45%, 44%);
+    margin-top: 20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+  .attribution a:visited {
+    color: hsl(228, 45%, 44%);
+  }
